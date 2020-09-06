@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/whiteShade"
+    android:id="@+id/errorLayout">
+
+    <ImageView
+        android:id="@+id/nothing"
+        android:src="@drawable/ic_baseline_add_shopping_cart_24"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/errorTitle"
+        android:text="Ваша корзина пока пуста"
+        android:textColor="@color/mainColor"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/nothing"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:text="Выберите сначала товар"
+        android:textColor="@color/black_for_music"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/errorTitle"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вернуться в магазин"
+        android:backgroundTint="@color/mainColor"
+        android:textColor="#fff"
+        android:layout_below="@id/errorMessage"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

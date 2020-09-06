@@ -1,3 +1,34 @@
 <resources>
-    <string name="app_name">EsteKz</string>
+    <string name="app_name" translatable="false">ESTE</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+
+    <string name="category_profile" translatable="false">Profile</string>
+    <string name="category_shop" translatable="false">Shop</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_journal" translatable="false">Journal</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_exercises" translatable="false">Exercises</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_meditation" translatable="false"> Meditation </string>
+
+    <string name="category_strength" translatable="false">Strength</string>
+    <string name="category_cardio" translatable="false">Cardio</string>
+    <string name="category_stretch" translatable="false">Stretch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="last_news">Last News</string>
+    <string name="author">Author</string>
+    <string name="custom_date">May 5, 2020</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="source">Source</string>
+    <string name="time">Time</string>
+    <string name="article">Article</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="news_title">Title of News</string>
+    <string name="some_time_ago">Some time ago</string>
 </resources>

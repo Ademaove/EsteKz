@@ -1,10 +1,42 @@
 <resources>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+
+<!--        <item name="colorPrimary">@color/primary_color</item>-->
+        <item name="colorPrimaryDark">@color/mainColor</item>
+        <item name="colorAccent">@color/mainColor</item>
+<!--        <item name="actionBarStyle">@color/mainColor</item>-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textViewStyle">@style/OpeSansLight</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+    <style name="OpeSansLight" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/open_sans_light</item>
+    </style>
+    <!-- App bar style -->
+<!--    <style name="MiwokAppBarStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">-->
+<!--        &lt;!&ndash; Remove the shadow below the app bar &ndash;&gt;-->
+<!--        <item name="elevation">0dp</item>-->
+<!--    </style>-->
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/whiteShade</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#FFFDFC</item>
+    </style>
+
+
+    <style name="MyAppBarLayoutTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlHighlight">@color/mainColor</item>
+        <item name="colorControlNormal">@color/mainColor</item>
     </style>
 
 </resources>

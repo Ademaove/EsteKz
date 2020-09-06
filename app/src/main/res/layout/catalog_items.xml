@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="40sp"
+    xmlns:tool="http://schemas.android.com/tools"
+    app:cardCornerRadius="4dp"
+    android:background="@color/whiteShade">
+
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/next_button"
+        android:gravity="center">
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_navigate_next_24"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/catalog_name"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="6sp"
+        android:layout_toLeftOf="@+id/next_button"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tool:text="Name"
+        android:gravity="center_vertical" />
+
+
+
+
+</RelativeLayout>

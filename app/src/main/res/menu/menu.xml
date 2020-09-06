@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".menu">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="Глaвная" />
+    <item
+        android:id="@+id/catalog"
+        android:icon="@drawable/ic_find_in_page"
+        android:title="Каталог" />
+    <item
+        android:id="@+id/shop"
+        android:icon="@drawable/ic_shopping_cart"
+        android:title="Корзинка" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person"
+        android:title="Профиль" />
+</menu>
