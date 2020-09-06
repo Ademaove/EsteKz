@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NewActivity">
+        <ProgressBar
+            android:id="@+id/loading_specific_photos"
+            android:layout_width="match_parent"
+            android:layout_marginTop="350dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_background"
+            android:foregroundGravity="center"
+            style="@android:style/Widget.ProgressBar.Small"/>
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        android:id="@+id/slider"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/grey"
+        android:layout_height="400dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slider"
+        android:layout_marginTop="12dp"
+        android:textSize="21sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:id="@+id/title_name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_name"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:text="Описание:"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextTitle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/d"/>
+    <org.sufficientlysecure.htmltextview.HtmlTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@+id/d"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:textColor="@color/colorTextTitle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/description"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:layout_marginTop="18dp"
+        android:textSize="17sp"
+        android:textColor="@color/colorTextTitle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/price_of_product"/>
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_to_sc"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/price_of_product"
+            android:background="@drawable/for_button"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:layout_alignTop="@+id/source"
+            android:text="В корзину"
+            android:textSize="18sp"
+            android:layout_marginBottom="25dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_to_sc"
+            android:id="@+id/other_products"
+            android:layout_marginBottom="35dp"
+            />
+    </RelativeLayout>
+
+</ScrollView>
