@@ -35,8 +35,10 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation "androidx.cardview:cardview:1.0.0"
     implementation "androidx.recyclerview:recyclerview:1.1.0"
+    // For control over item selection of both touch and mouse driven selection
     implementation "androidx.recyclerview:recyclerview-selection:1.1.0-rc01"
-
+    implementation 'com.github.denzcoskun:imageslideshow:0.0.7'
+    implementation 'org.sufficientlysecure:html-textview:3.9'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.google.android.material:material:1.1.0'
     testImplementation 'junit:junit:4.12'
