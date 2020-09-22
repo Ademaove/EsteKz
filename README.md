@@ -1,5 +1,5 @@
 # App pictures
-There was no designer for the app, so I ahad create the design. It looks not good, but it is functional.
+There was no designer for the app, so I had to create the design. It looks not good, but it is functional.
 ![](https://github.com/Ademaove/picturesforEstekz/blob/master/photo5429134336738832315.jpg)
 ![](https://github.com/Ademaove/picturesforEstekz/blob/master/photo5429134336738832314.jpg)
 ![](https://github.com/Ademaove/picturesforEstekz/blob/master/photo5429134336738832313.jpg)
